@@ -1,0 +1,45 @@
+# Default training configuration
+project_name: building-classifier
+
+data:
+  data_dir: data/dataset
+  image_size: 224
+  batch_size: 32
+  num_workers: 4
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+  augmentation:
+    random_horizontal_flip: true
+    random_rotation: 15
+    color_jitter:
+      brightness: 0.2
+      contrast: 0.2
+      saturation: 0.2
+
+model:
+  backbone: efficientnet_b0
+  pretrained: true
+  num_classes: null  # auto-detected from dataset
+  dropout: 0.3
+  freeze_backbone: false
+
+training:
+  epochs: 30
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: adamw
+  scheduler: cosine
+  warmup_epochs: 3
+  early_stopping_patience: 7
+  seed: 42
+  checkpoint_dir: outputs/checkpoints
+  log_dir: outputs/logs
+
+evaluation:
+  checkpoint: outputs/checkpoints/best_model.pth
+  output_dir: outputs/evaluation
+
+inference:
+  checkpoint: outputs/checkpoints/best_model.pth
+  confidence_threshold: 0.5
