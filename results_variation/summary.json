@@ -1,0 +1,90 @@
+{
+  "mode": "single_image",
+  "total_locations": 10,
+  "total_images": 10,
+  "label_counts": {
+    "single_family": 10
+  },
+  "results": [
+    {
+      "location_id": "loc_001",
+      "address": "1208 Redbud St Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.95,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022]."
+    },
+    {
+      "location_id": "loc_002",
+      "address": "1307 Hateras Ave Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.95,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022]."
+    },
+    {
+      "location_id": "loc_003",
+      "address": "1313 Hateras Ave Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.95,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022]."
+    },
+    {
+      "location_id": "loc_004",
+      "address": "1315 Beatties Ford Rd Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.95,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2024]."
+    },
+    {
+      "location_id": "loc_005",
+      "address": "1315 Hateras Ave Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.95,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022]."
+    },
+    {
+      "location_id": "loc_006",
+      "address": "1320 LaSalle St Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.99,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.99 from 1 image(s) across years [2022]."
+    },
+    {
+      "location_id": "loc_007",
+      "address": "1321 Hateras Ave Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.9,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.90 from 1 image(s) across years [2022]."
+    },
+    {
+      "location_id": "loc_008",
+      "address": "1327 Beatties Ford Rd Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.9,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.90 from 1 image(s) across years [2024]."
+    },
+    {
+      "location_id": "loc_009",
+      "address": "1341 LaSalle St Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.9,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.90 from 1 image(s) across years [2022]."
+    },
+    {
+      "location_id": "loc_010",
+      "address": "1400 LaSalle St Charlotte NC",
+      "final_label": "single_family",
+      "final_confidence": 0.95,
+      "images_analyzed": 1,
+      "reasoning": "Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022]."
+    }
+  ]
+}

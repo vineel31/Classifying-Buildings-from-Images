@@ -1,0 +1,11 @@
+location_id,address,final_label,final_confidence,images_analyzed,reasoning
+loc_001,1208 Redbud St Charlotte NC,single_family,0.95,1,Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022].
+loc_002,1307 Hateras Ave Charlotte NC,single_family,0.95,1,Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022].
+loc_003,1313 Hateras Ave Charlotte NC,single_family,0.95,1,Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022].
+loc_004,1315 Beatties Ford Rd Charlotte NC,single_family,0.95,1,Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2024].
+loc_005,1315 Hateras Ave Charlotte NC,single_family,0.95,1,Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022].
+loc_006,1320 LaSalle St Charlotte NC,single_family,0.99,1,Classified as 'single_family' with confidence 0.99 from 1 image(s) across years [2022].
+loc_007,1321 Hateras Ave Charlotte NC,single_family,0.9,1,Classified as 'single_family' with confidence 0.90 from 1 image(s) across years [2022].
+loc_008,1327 Beatties Ford Rd Charlotte NC,single_family,0.9,1,Classified as 'single_family' with confidence 0.90 from 1 image(s) across years [2024].
+loc_009,1341 LaSalle St Charlotte NC,single_family,0.9,1,Classified as 'single_family' with confidence 0.90 from 1 image(s) across years [2022].
+loc_010,1400 LaSalle St Charlotte NC,single_family,0.95,1,Classified as 'single_family' with confidence 0.95 from 1 image(s) across years [2022].
