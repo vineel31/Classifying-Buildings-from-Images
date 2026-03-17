@@ -44,11 +44,7 @@ python run_pipeline.py --data ./data --output ./results_variation --single-image
 # Resume after interruption
 python run_pipeline.py --data ./data --output ./results --resume
 
-# Generate final report
-python generate_report.py
-```
-
-Output files: `predictions.csv`, `intermediate_results.jsonl`, `summary.json`, `report.pdf`
+Output files: `predictions.csv`, `intermediate_results.jsonl`, `summary.json`
 
 ---
 
@@ -61,7 +57,6 @@ Output files: `predictions.csv`, `intermediate_results.jsonl`, `summary.json`, `
 │   ├── model_analyzer.py      # Stage 2: Vision analysis (Groq/Llama)
 │   └── classifier.py          # Stage 3+4: Temporal aggregation & classification
 ├── run_pipeline.py            # Main entry point
-├── generate_report.py         # PDF report generator
 ├── data/                      # 10 location folders with images
 ├── results/                   # Main pipeline outputs
 ├── results_variation/         # Variation test outputs
