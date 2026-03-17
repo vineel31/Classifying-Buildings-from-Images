@@ -155,6 +155,28 @@ Output files: `predictions.csv`, `intermediate_results.jsonl`, `summary.json`, `
 
 ---
 
+## Testing
+
+**83 unit tests** covering all pipeline modules:
+
+```bash
+# Run all tests
+python -m pytest tests/ -v
+
+# Run specific test file
+python -m pytest tests/test_classifier.py -v
+```
+
+| Test File | Tests | Coverage |
+|-----------|-------|----------|
+| `test_config.py` | 11 | Labels, thresholds, year weights |
+| `test_data_loader.py` | 14 | Image discovery, year extraction, metadata parsing |
+| `test_classifier.py` | 19 | Aggregation, OCR boost, temporal change |
+| `test_model_analyzer.py` | 16 | JSON parsing, fallback, retry delay |
+| `test_run_pipeline.py` | 13 | Resume logic, JSONL handling |
+
+---
+
 ## Requirements
 
 ```
